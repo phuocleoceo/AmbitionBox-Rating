@@ -1,8 +1,22 @@
 # Trình tự chạy chương trình
 
+## Môi trường
+- python version > 3.8
+- Node version > 14
+
 ## Crawl dữ liệu từ Ambition Box
-- Tại thư mục raw data, thực thi câu lệnh "npm install" trong terminal để khôi phục lại các thư viện cần thiết cho NodeJS.
-- Chạy câu lệnh "node index.js" để tiến hành crawl. Kết quả thu được file db.json trong thư mục raw data.
+- Di chuyển vào thư mục raw data
+```bash
+cd raw\ data/
+```
+- Cài đặt thư viện
+```bash
+npm install
+```
+- Chạy file index để crawl dữ liệu và lưu vào file db.json
+```bash
+node index.js
+```
 - Chạy file eda.ipynb để chuyển file db.json thành raw data.csv và xem các mô tả về dữ liệu.
 
 ## Làm sạch dữ liệu
